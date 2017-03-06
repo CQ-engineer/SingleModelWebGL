@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>曹婉芬凤盉提梁壶</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<script src="js/jquery-3.1.1.js"></script>
+		<script>
+            var Width = $(window).width();
+            var Height = $(window).height();
+		</script>
+	</head>
+
+	<body>
+		<!-- 进度条 -->
+		<div id="loaderdiv">
+			<div class="graph">
+				 <strong id="bar" style="width:1%;"></strong>
+			</div>
+		</div>
+		<!-- canvas -->
+		<div id="ThreeJS"></div>
+		<script src="js/three.min.js"></script>
+		<script src="js/TrackballControls.js"></script>
+		<script src="js/Detector.js"></script>
+		<script src="js/loaders/BinaryLoader.js"></script>
+		<script src="js/loaders/MTLLoader.js"></script>
+		<script src="js/loaders/OBJLoader.js"></script>
+		<!--<script src="js/config.js"></script>-->
+
+		<script src="js/threeShow.js"></script>
+		<script>
+			
+			var opts={name:"caowanfen.obj",minDistance:1,maxDistance:50};
+			// init(opts);
+			window.onload=function(){
+				if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+				init(opts);
+				
+			}
+		</script>
+
+	</body>
+</html>

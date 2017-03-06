@@ -1,0 +1,16 @@
+<!--多媒体数字展厅-->
+<data>
+	<!--<pORo>perspectiveCamera</pORo>-->
+	<!--<minfov>20</minfov>-->
+	<!--<maxfov>90</maxfov>-->
+	<cameraPositionZ>0</cameraPositionZ>
+	<pORo>OrthographicCamera</pORo>
+	<zoomSpeed>1.4</zoomSpeed>
+	<minZoom>0.6</minZoom>
+	<maxZoom>1.0</maxZoom>
+	<mouseMoveSpeed>100</mouseMoveSpeed>
+	<touchMoveSpeed>1.0</touchMoveSpeed>
+	<rotateSpeed>1000</rotateSpeed>
+	<near>-1000</near>
+	<far>2000</far>
+</data>

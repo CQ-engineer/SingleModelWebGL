@@ -1,0 +1,15 @@
+*{margin: 0;padding: 0;outline: none;}
+body{font-family: "Microsoft Yahei", "å¾®è½¯é›…é»‘";color: #fff;font-size: 12px;margin: 0px;overflow: hidden;}
+#loaderdiv {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    /*z-index: 2000000;*/
+    text-align:center;
+}
+.graph{  width: 200px; border: 1px solid #C75211; height: 5px;position:fixed;left:50%;top:50%;margin-left:-100px;margin-top:-2.5px; }
+#bar{ display: block; background: #e57233; float: left; height: 100%; text-align: center; font-family: Verdana; line-height: 25px; color: #000; }
+
+
